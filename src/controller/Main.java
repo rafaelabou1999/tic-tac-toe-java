@@ -57,15 +57,17 @@ public class Main {
 
 				attempt[line3][col3] = "0";
 				System.out.println(attempt[line3][col3]);
+				
+				/*Variables to check if the player won. If the player entered these position (diagonal or entire column), he/she won */
 				int allDiagonalLine = 0 + 1 + 2;
 				int allDiagonalCol = 0+ 1 + 2;
 				
-				String diagonal = attempt[0][0] + attempt[1][1] + attempt[2][2];
 				int allEntireLine = 0 + 1 + 2;
 				int allEntireCol = 0 + 0 + 0;
 				int allEntireCol1 = 1+ 1+ 1;
 				int allEntireCol2 = 2+2+2;
-				
+				/*===============*/
+				/*Checking who won*/
 				if (totalLine == allDiagonalLine && totalCol == allDiagonalCol) {
 					System.out.println("PLAYER 1 WINS");
 					System.out.println("-----END-----");
