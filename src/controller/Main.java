@@ -16,7 +16,7 @@ public class Main {
 		Player2 p2 = new Player2();
 		
 		
-		/*To check who win! Later it will be better explained*/
+		/*To check who won! Later it will be better explained*/
 		int totalLine = 0;
 		int totalCol = 0;
 		int totalLine3 = 0;
