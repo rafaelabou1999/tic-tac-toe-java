@@ -1,11 +1,11 @@
-package jogoDaVelha;
+package controller;
 
 import java.util.Scanner;
 
 import players.Player1;
 import players.Player2;
 
-public class JogoDaVelha {
+public class Main {
 	public static void main(String[] args) {
 
 		String attempt[][] = new String[3][3];
