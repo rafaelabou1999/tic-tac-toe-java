@@ -118,25 +118,7 @@ public class JogoDaVelha {
 			main(args);
 		}
 		
-		int allDiagonalLine = 0 + 1 + 2;
-		int allDiagonalCol = 0+ 1 + 2;
 		
-		String diagonal = attempt[0][0] + attempt[1][1] + attempt[2][2];
-		int allEntireLine = 0 + 1 + 2;
-		int allEntireCol = 0 + 0 + 0;
-		int allEntireCol1 = 1+ 1+ 1;
-		int allEntireCol2 = 2+2+2;
-		
-		if (totalLine == allDiagonalLine && totalCol == allDiagonalCol) {
-			System.out.println("PLAYER 1 WINS");
-		} else {
-			System.out.println("PLAYER 2 WINS");
-		}
-		
-		if (totalLine == allEntireLine && totalCol == allEntireCol || totalCol == allEntireCol1 || totalCol == allEntireCol2) {
-			System.out.println("PLAYER 1 WINS");
-		} else {
-			System.out.println("PLAYER 2 WINS");
-		}
-	}}
+	}
+}
 
