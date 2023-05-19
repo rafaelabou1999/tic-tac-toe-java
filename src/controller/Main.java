@@ -15,6 +15,8 @@ public class Main {
 		Player1 p1 = new Player1();
 		Player2 p2 = new Player2();
 		
+		
+		/*To check who win! Later it will be better explained*/
 		int totalLine = 0;
 		int totalCol = 0;
 		int totalLine3 = 0;
@@ -59,14 +61,21 @@ public class Main {
 				System.out.println(attempt[line3][col3]);
 				
 				/*Variables to check if the player won. If the player entered these position (diagonal or entire column), he/she won */
+				/*DIAGONAL --> Line 0 + Line 1 + Line 2
+				           --> Col 0 + Col 1 + Col 2*/
 				int allDiagonalLine = 0 + 1 + 2;
 				int allDiagonalCol = 0+ 1 + 2;
 				
+				
+				/*ENTIRE COLUMN --> Line 0 + Line 1 + Line 2
+				                --> Col0 + Col 0 + Col 0 (OR) Col 1 + Col 1 + Col 1 (OR) Col 2 + Col 2 + Col 2*/
 				int allEntireLine = 0 + 1 + 2;
 				int allEntireCol = 0 + 0 + 0;
 				int allEntireCol1 = 1+ 1+ 1;
 				int allEntireCol2 = 2+2+2;
-				/*===============*/
+				/*==================================*/
+				
+				
 				/*Checking who won*/
 				if (totalLine == allDiagonalLine && totalCol == allDiagonalCol) {
 					System.out.println("PLAYER 1 WINS");
