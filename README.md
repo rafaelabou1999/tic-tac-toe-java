@@ -1,4 +1,4 @@
-# HashGame
+# Tic-Tac-Toe
 <i>Coded using:</i>
 
 <ul>
